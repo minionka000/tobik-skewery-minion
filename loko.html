@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Legends Champions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0a0a0a;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #202020;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #00aaff;
+        }
+        .champion-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .champion-card {
+            background-color: #303030;
+            border: 1px solid #505050;
+            border-radius: 8px;
+            width: 300px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .champion-card h2 {
+            color: #00aaff;
+            font-size: 1.5em;
+        }
+        .champion-card p {
+            margin: 10px 0;
+        }
+        .item-list {
+            list-style: none;
+            padding: 0;
+        }
+        .item-list li {
+            background-color: #404040;
+            border-radius: 4px;
+            padding: 5px 10px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>League of Legends Champions</h1>
+    </header>
+    <main class="champion-list">
+        <!-- Example Champion 1 -->
+        <div class="champion-card">
+            <h2>Aatrox</h2>
+            <p><strong>Roles:</strong> Top</p>
+            <p><strong>Lanes:</strong> Top Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Goredrinker</li>
+                <li>Death's Dance</li>
+                <li>Black Cleaver</li>
+            </ul>
+        </div>
+        <!-- Example Champion 2 -->
+        <div class="champion-card">
+            <h2>Ahri</h2>
+            <p><strong>Roles:</strong> Mage</p>
+            <p><strong>Lanes:</strong> Mid Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Luden's Tempest</li>
+                <li>Zhonya's Hourglass</li>
+                <li>Rabadon's Deathcap</li>
+            </ul>
+        </div>
+        <!-- Example Champion 3 -->
+        <div class="champion-card">
+            <h2>Akali</h2>
+            <p><strong>Roles:</strong> Assassin</p>
+            <p><strong>Lanes:</strong> Mid Lane, Top Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Hextech Rocketbelt</li>
+                <li>Shadowflame</li>
+                <li>Zhonya's Hourglass</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Alistar</h2>
+            <p><strong>Roles:</strong> Support, Tank</p>
+            <p><strong>Lanes:</strong> Bottom Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Evemshroud</li>
+                <li>Knight's Vow</li>
+                <li>Zeke's Convergence</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Amumu</h2>
+            <p><strong>Roles:</strong> Tank</p>
+            <p><strong>Lanes:</strong> Jungle</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Sunfire Aegis</li>
+                <li>Demonic Embrace</li>
+                <li>Thornmail</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Anivia</h2>
+            <p><strong>Roles:</strong> Mage</p>
+            <p><strong>Lanes:</strong> Mid Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Rod of Ages</li>
+                <li>Seraph's Embrace</li>
+                <li>Rabadon's Deathcap</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Ashe</h2>
+            <p><strong>Roles:</strong> Marksman</p>
+            <p><strong>Lanes:</strong> Bottom Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Kraken Slayer</li>
+                <li>Runaan's Hurricane</li>
+                <li>Infinity Edge</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Azir</h2>
+            <p><strong>Roles:</strong> Mage</p>
+            <p><strong>Lanes:</strong> Mid Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Liandry's Anguish</li>
+                <li>Nashor's Tooth</li>
+                <li>Rabadon's Deathcap</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Bard</h2>
+            <p><strong>Roles:</strong> Support</p>
+            <p><strong>Lanes:</strong> Bottom Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Shurelya's Battlesong</li>
+                <li>Mikael's Blessing</li>
+                <li>Redemption</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Blitzcrank</h2>
+            <p><strong>Roles:</strong> Support, Tank</p>
+            <p><strong>Lanes:</strong> Bottom Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Evemshroud</li>
+                <li>Zeke's Convergence</li>
+                <li>Frozen Heart</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Brand</h2>
+            <p><strong>Roles:</strong> Mage</p>
+            <p><strong>Lanes:</strong> Mid Lane, Support</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Liandry's Anguish</li>
+                <li>Demonic Embrace</li>
+                <li>Rylai's Crystal Scepter</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Braum</h2>
+            <p><strong>Roles:</strong> Support, Tank</p>
+            <p><strong>Lanes:</strong> Bottom Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Locket of the Iron Solari</li>
+                <li>Knight's Vow</li>
+                <li>Thornmail</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Caitlyn</h2>
+            <p><strong>Roles:</strong> Marksman</p>
+            <p><strong>Lanes:</strong> Bottom Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Galeforce</li>
+                <li>Infinity Edge</li>
+                <li>Rapid Firecannon</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Camille</h2>
+            <p><strong>Roles:</strong> Fighter</p>
+            <p><strong>Lanes:</strong> Top Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Divine Sunderer</li>
+                <li>Ravenous Hydra</li>
+                <li>Sterak's Gage</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Cassiopeia</h2>
+            <p><strong>Roles:</strong> Mage</p>
+            <p><strong>Lanes:</strong> Mid Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Rod of Ages</li>
+                <li>Seraph's Embrace</li>
+                <li>Rylai's Crystal Scepter</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Cho'Gath</h2>
+            <p><strong>Roles:</strong> Tank, Mage</p>
+            <p><strong>Lanes:</strong> Top Lane, Mid Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Sunfire Aegis</li>
+                <li>Thornmail</li>
+                <li>Warmog's Armor</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Corki</h2>
+            <p><strong>Roles:</strong> Marksman</p>
+            <p><strong>Lanes:</strong> Mid Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Trinity Force</li>
+                <li>Manamune</li>
+                <li>Ravenous Hydra</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Darius</h2>
+            <p><strong>Roles:</strong> Fighter</p>
+            <p><strong>Lanes:</strong> Top Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Stridebreaker</li>
+                <li>Dead Man's Plate</li>
+                <li>Sterak's Gage</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Diana</h2>
+            <p><strong>Roles:</strong> Fighter, Mage</p>
+            <p><strong>Lanes:</strong> Jungle, Mid Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Nashor's Tooth</li>
+                <li>Hextech Rocketbelt</li>
+                <li>Zhonya's Hourglass</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Dr. Mundo</h2>
+            <p><strong>Roles:</strong> Tank, Fighter</p>
+            <p><strong>Lanes:</strong> Top Lane, Jungle</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Heartsteel</li>
+                <li>Spirit Visage</li>
+                <li>Thornmail</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Draven</h2>
+            <p><strong>Roles:</strong> Marksman</p>
+            <p><strong>Lanes:</strong> Bottom Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Infinity Edge</li>
+                <li>Bloodthirster</li>
+                <li>Galeforce</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Ekko</h2>
+            <p><strong>Roles:</strong> Assassin, Mage</p>
+            <p><strong>Lanes:</strong> Jungle, Mid Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Hextech Rocketbelt</li>
+                <li>Zhonya's Hourglass</li>
+                <li>Lich Bane</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Elise</h2>
+            <p><strong>Roles:</strong> Mage, Fighter</p>
+            <p><strong>Lanes:</strong> Jungle</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Night Harvester</li>
+                <li>Zhonya's Hourglass</li>
+                <li>Shadowflame</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Evelynn</h2>
+            <p><strong>Roles:</strong> Assassin</p>
+            <p><strong>Lanes:</strong> Jungle</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Hextech Rocketbelt</li>
+                <li>Mejai's Soulstealer</li>
+                <li>Rabadon's Deathcap</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Ezreal</h2>
+            <p><strong>Roles:</strong> Marksman</p>
+            <p><strong>Lanes:</strong> Bottom Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Trinity Force</li>
+                <li>Muramana</li>
+                <li>Ravenous Hydra</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Fiddlesticks</h2>
+            <p><strong>Roles:</strong> Mage</p>
+            <p><strong>Lanes:</strong> Jungle</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Liandry's Anguish</li>
+                <li>Zhonya's Hourglass</li>
+                <li>Demonic Embrace</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Fiora</h2>
+            <p><strong>Roles:</strong> Fighter</p>
+            <p><strong>Lanes:</strong> Top Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Divine Sunderer</li>
+                <li>Ravenous Hydra</li>
+                <li>Sterak's Gage</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Fizz</h2>
+            <p><strong>Roles:</strong> Assassin</p>
+            <p><strong>Lanes:</strong> Mid Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Hextech Rocketbelt</li>
+                <li>Lich Bane</li>
+                <li>Rabadon's Deathcap</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Galio</h2>
+            <p><strong>Roles:</strong> Tank, Mage</p>
+            <p><strong>Lanes:</strong> Mid Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Everfrost</li>
+                <li>Zhonya's Hourglass</li>
+                <li>Shadowflame</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Gangplank</h2>
+            <p><strong>Roles:</strong> Fighter</p>
+            <p><strong>Lanes:</strong> Top Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Essence Reaver</li>
+                <li>Infinity Edge</li>
+                <li>Hullbreaker</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Garen</h2>
+            <p><strong>Roles:</strong> Fighter, Tank</p>
+            <p><strong>Lanes:</strong> Top Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Stridebreaker</li>
+                <li>Dead Man's Plate</li>
+                <li>Sterak's Gage</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Gragas</h2>
+            <p><strong>Roles:</strong> Mage, Tank</p>
+            <p><strong>Lanes:</strong> Jungle, Mid Lane, Top Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Everfrost</li>
+                <li>Zhonya's Hourglass</li>
+                <li>Demonic Embrace</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Graves</h2>
+            <p><strong>Roles:</strong> Marksman, Fighter</p>
+            <p><strong>Lanes:</strong> Jungle, Top Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Eclipse</li>
+                <li>The Collector</li>
+                <li>Lord Dominik's Regards</li>
+            </ul>
+        </div>
+        <div class="champion-card">
+            <h2>Gwen</h2>
+            <p><strong>Roles:</strong> Fighter</p>
+            <p><strong>Lanes:</strong> Top Lane</p>
+            <p><strong>Recommended Items:</strong></p>
+            <ul class="item-list">
+                <li>Riftmaker</li>
+                <li>Nashor's Tooth</li>
+                <li>Zhonya's Hourglass</li>
+            </ul>
+        </div>
+        <!-- Add more champions as needed -->
+    </main>
+</body>
+</html>
