@@ -7,13 +7,13 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: darkblue;
-            color: #f0f0f0;
+            background-color: black;
+            color: yellow;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: blue;
+            background-color: darkblue;
             padding: 20px;
             text-align: center;
         }
@@ -29,7 +29,7 @@
             padding: 20px;
         }
         .champion-card {
-            background-color: blue;
+            background-color: darkblue;
             border: 1px solid white;
             border-radius: 8px;
             width: 300px;
@@ -49,11 +49,16 @@
             padding: 0;
         }
         .item-list li {
-            background-color: darkblue;
+            background-color: blue;
             border-radius: 4px;
             padding: 5px 10px;
             margin: 5px 0;
         }
+
+    
+        img{width: 300px;} 
+
+
     </style>
 </head>
 <body>
@@ -63,6 +68,7 @@
     <main class="champion-list">
 
         <div class="champion-card">
+            <img src="https://th.bing.com/th/id/OIP.jZToyucohQHoB4Qy6MivJAHaEK?w=314&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Aatrox">
             <h2>Aatrox</h2>
             <p><strong>Roles:</strong> Top</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -74,8 +80,8 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="https://th.bing.com/th/id/OIP.I81qMOF-FjD70_m7rpOk5AHaEK?w=322&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Ahri">
             <h2>Ahri</h2>
-            <img src="data:image/jpeg;base64,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" alt="Ahri" width="100%" height="auto">
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
             <p><strong>Recommended Items:</strong></p>
@@ -86,6 +92,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="https://th.bing.com/th/id/OIP.3JGRkaIgJXnVWCuAfg4t7AHaEK?w=295&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Akali">
             <h2>Akali</h2>
             <p><strong>Roles:</strong> Assassin</p>
             <p><strong>Lanes:</strong> Mid Lane, Top Lane</p>
@@ -97,6 +104,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Alistar</h2>
             <p><strong>Roles:</strong> Support, Tank</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -108,6 +116,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Amumu</h2>
             <p><strong>Roles:</strong> Tank</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -119,6 +128,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Anivia</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -130,6 +140,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Ashe</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -141,6 +152,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Azir</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -152,6 +164,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Bard</h2>
             <p><strong>Roles:</strong> Support</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -163,6 +176,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Blitzcrank</h2>
             <p><strong>Roles:</strong> Support, Tank</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -174,6 +188,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Brand</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane, Support</p>
@@ -185,6 +200,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Braum</h2>
             <p><strong>Roles:</strong> Support, Tank</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -196,6 +212,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Caitlyn</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -207,6 +224,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Camille</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -218,6 +236,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Cassiopeia</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -229,6 +248,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Cho'Gath</h2>
             <p><strong>Roles:</strong> Tank, Mage</p>
             <p><strong>Lanes:</strong> Top Lane, Mid Lane</p>
@@ -240,6 +260,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Corki</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -251,6 +272,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Darius</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -262,6 +284,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Diana</h2>
             <p><strong>Roles:</strong> Fighter, Mage</p>
             <p><strong>Lanes:</strong> Jungle, Mid Lane</p>
@@ -273,6 +296,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Dr. Mundo</h2>
             <p><strong>Roles:</strong> Tank, Fighter</p>
             <p><strong>Lanes:</strong> Top Lane, Jungle</p>
@@ -284,6 +308,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Draven</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -295,6 +320,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Ekko</h2>
             <p><strong>Roles:</strong> Assassin, Mage</p>
             <p><strong>Lanes:</strong> Jungle, Mid Lane</p>
@@ -306,6 +332,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Elise</h2>
             <p><strong>Roles:</strong> Mage, Fighter</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -317,6 +344,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Evelynn</h2>
             <p><strong>Roles:</strong> Assassin</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -328,6 +356,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Ezreal</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -339,6 +368,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Fiddlesticks</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -350,6 +380,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Fiora</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -361,6 +392,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Fizz</h2>
             <p><strong>Roles:</strong> Assassin</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -372,6 +404,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Galio</h2>
             <p><strong>Roles:</strong> Tank, Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -383,6 +416,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Gangplank</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -394,6 +428,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Garen</h2>
             <p><strong>Roles:</strong> Fighter, Tank</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -405,6 +440,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Gragas</h2>
             <p><strong>Roles:</strong> Mage, Tank</p>
             <p><strong>Lanes:</strong> Jungle, Mid Lane, Top Lane</p>
@@ -416,6 +452,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Graves</h2>
             <p><strong>Roles:</strong> Marksman, Fighter</p>
             <p><strong>Lanes:</strong> Jungle, Top Lane</p>
@@ -427,6 +464,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Gwen</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -439,6 +477,7 @@
         </div>
        
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Hecarim</h2>
             <p><strong>Roles:</strong> Fighter, Tank</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -450,6 +489,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Heimerdinger</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane, Support</p>
@@ -461,6 +501,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Illaoi</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -472,6 +513,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Irelia</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Top Lane, Mid Lane</p>
@@ -483,6 +525,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Ivern</h2>
             <p><strong>Roles:</strong> Support</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -494,6 +537,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Janna</h2>
             <p><strong>Roles:</strong> Support</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -505,6 +549,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Jarvan IV</h2>
             <p><strong>Roles:</strong> Tank, Fighter</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -516,6 +561,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Jax</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Top Lane, Jungle</p>
@@ -527,6 +573,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Jayce</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Top Lane, Mid Lane</p>
@@ -538,6 +585,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Jhin</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -549,6 +597,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Jinx</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -561,6 +610,7 @@
         </div>
 
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Kai'Sa</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -572,6 +622,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Kalista</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -583,6 +634,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Karma</h2>
             <p><strong>Roles:</strong> Support, Mage</p>
             <p><strong>Lanes:</strong> Bottom Lane, Mid Lane</p>
@@ -594,6 +646,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Karthus</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Jungle, Mid Lane</p>
@@ -605,6 +658,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Kassadin</h2>
             <p><strong>Roles:</strong> Assassin</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -616,6 +670,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Katarina</h2>
             <p><strong>Roles:</strong> Assassin</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -627,6 +682,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Kayle</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Top Lane, Mid Lane</p>
@@ -638,6 +694,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Kayn</h2>
             <p><strong>Roles:</strong> Assassin, Fighter</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -649,6 +706,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Kennen</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Top Lane, Mid Lane</p>
@@ -660,6 +718,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Kha'Zix</h2>
             <p><strong>Roles:</strong> Assassin</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -670,8 +729,8 @@
                 <li>Edge of Night</li>
             </ul>
         </div>
-        
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Kindred</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -683,6 +742,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Kled</h2>
             <p><strong>Roles:</strong> Fighter, Tank</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -694,6 +754,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Kog'Maw</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -705,6 +766,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>LeBlanc</h2>
             <p><strong>Roles:</strong> Assassin</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -716,6 +778,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Lee Sin</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -727,6 +790,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Leona</h2>
             <p><strong>Roles:</strong> Tank, Support</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -738,6 +802,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Lillia</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Jungle, Top Lane</p>
@@ -749,6 +814,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Lissandra</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -760,6 +826,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Lucian</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane, Mid Lane</p>
@@ -771,6 +838,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Lulu</h2>
             <p><strong>Roles:</strong> Support</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -780,9 +848,9 @@
                 <li>Ardent Censer</li>
                 <li>Redemption</li>
             </ul>
-        </div>
-        
+        </div>        
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Lux</h2>
             <p><strong>Roles:</strong> Mage, Support</p>
             <p><strong>Lanes:</strong> Mid Lane, Bottom Lane</p>
@@ -794,6 +862,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Malphite</h2>
             <p><strong>Roles:</strong> Tank, Mage</p>
             <p><strong>Lanes:</strong> Top Lane, Mid Lane</p>
@@ -805,6 +874,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Malzahar</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -816,6 +886,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Maokai</h2>
             <p><strong>Roles:</strong> Tank, Support</p>
             <p><strong>Lanes:</strong> Top Lane, Jungle</p>
@@ -827,6 +898,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Master Yi</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -838,6 +910,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Miss Fortune</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -849,6 +922,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Mordekaiser</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Top Lane, Jungle</p>
@@ -860,6 +934,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Morgana</h2>
             <p><strong>Roles:</strong> Mage, Support</p>
             <p><strong>Lanes:</strong> Bottom Lane, Jungle</p>
@@ -871,6 +946,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Nami</h2>
             <p><strong>Roles:</strong> Support</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -882,6 +958,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Nasus</h2>
             <p><strong>Roles:</strong> Fighter, Tank</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -891,9 +968,9 @@
                 <li>Frozen Heart</li>
                 <li>Thornmail</li>
             </ul>
-        </div>
-        
+        </div>        
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Nautilus</h2>
             <p><strong>Roles:</strong> Tank, Support</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -905,6 +982,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Neeko</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -916,6 +994,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Nidalee</h2>
             <p><strong>Roles:</strong> Mage, Assassin</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -927,6 +1006,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Nocturne</h2>
             <p><strong>Roles:</strong> Assassin, Fighter</p>
             <p><strong>Lanes:</strong> Jungle, Top Lane</p>
@@ -938,6 +1018,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Nunu & Willump</h2>
             <p><strong>Roles:</strong> Tank, Support</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -949,6 +1030,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Olaf</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Top Lane, Jungle</p>
@@ -960,6 +1042,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Orianna</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -971,6 +1054,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Ornn</h2>
             <p><strong>Roles:</strong> Tank</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -982,6 +1066,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Pantheon</h2>
             <p><strong>Roles:</strong> Fighter, Assassin</p>
             <p><strong>Lanes:</strong> Mid Lane, Jungle</p>
@@ -993,6 +1078,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Poppy</h2>
             <p><strong>Roles:</strong> Tank, Fighter</p>
             <p><strong>Lanes:</strong> Jungle, Top Lane</p>
@@ -1005,6 +1091,7 @@
         </div>
         
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Pyke</h2>
             <p><strong>Roles:</strong> Support, Assassin</p>
             <p><strong>Lanes:</strong> Bottom Lane, Mid Lane</p>
@@ -1016,6 +1103,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Qiyana</h2>
             <p><strong>Roles:</strong> Assassin</p>
             <p><strong>Lanes:</strong> Mid Lane, Jungle</p>
@@ -1027,6 +1115,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Quinn</h2>
             <p><strong>Roles:</strong> Marksman, Fighter</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -1038,6 +1127,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Rakan</h2>
             <p><strong>Roles:</strong> Support</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -1049,6 +1139,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Rammus</h2>
             <p><strong>Roles:</strong> Tank</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -1060,6 +1151,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Rek'Sai</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -1071,6 +1163,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Renekton</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -1082,6 +1175,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Rengar</h2>
             <p><strong>Roles:</strong> Assassin, Fighter</p>
             <p><strong>Lanes:</strong> Jungle, Top Lane</p>
@@ -1093,6 +1187,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Riven</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -1104,6 +1199,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Rumble</h2>
             <p><strong>Roles:</strong> Mage, Fighter</p>
             <p><strong>Lanes:</strong> Mid Lane, Top Lane</p>
@@ -1116,6 +1212,7 @@
         </div>
         
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Ryze</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane, Top Lane</p>
@@ -1127,6 +1224,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Samira</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -1138,6 +1236,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Sejuani</h2>
             <p><strong>Roles:</strong> Tank</p>
             <p><strong>Lanes:</strong> Jungle, Top Lane</p>
@@ -1149,6 +1248,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Senna</h2>
             <p><strong>Roles:</strong> Marksman, Support</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -1160,6 +1260,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Seraphine</h2>
             <p><strong>Roles:</strong> Mage, Support</p>
             <p><strong>Lanes:</strong> Mid Lane, Bottom Lane</p>
@@ -1171,6 +1272,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Sett</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Top Lane, Jungle</p>
@@ -1182,6 +1284,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Shaco</h2>
             <p><strong>Roles:</strong> Assassin</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -1193,6 +1296,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Shen</h2>
             <p><strong>Roles:</strong> Tank</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -1204,6 +1308,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Shyvana</h2>
             <p><strong>Roles:</strong> Fighter, Mage</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -1215,6 +1320,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Singed</h2>
             <p><strong>Roles:</strong> Tank, Fighter</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -1227,6 +1333,7 @@
         </div>
         
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Sion</h2>
             <p><strong>Roles:</strong> Tank, Fighter</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -1238,6 +1345,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Sivir</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -1249,6 +1357,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Skarner</h2>
             <p><strong>Roles:</strong> Tank, Fighter</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -1260,6 +1369,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Sona</h2>
             <p><strong>Roles:</strong> Support</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -1271,6 +1381,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Soraka</h2>
             <p><strong>Roles:</strong> Support</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -1282,6 +1393,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Swain</h2>
             <p><strong>Roles:</strong> Mage, Tank</p>
             <p><strong>Lanes:</strong> Mid Lane, Bottom Lane</p>
@@ -1293,6 +1405,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Sylas</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -1304,6 +1417,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Syndra</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -1315,6 +1429,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Tahm Kench</h2>
             <p><strong>Roles:</strong> Tank, Support</p>
             <p><strong>Lanes:</strong> Top Lane, Bottom Lane</p>
@@ -1326,6 +1441,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Taliyah</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane, Jungle</p>
@@ -1338,6 +1454,7 @@
         </div>
         
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Talon</h2>
             <p><strong>Roles:</strong> Assassin</p>
             <p><strong>Lanes:</strong> Mid Lane, Jungle</p>
@@ -1349,6 +1466,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Taric</h2>
             <p><strong>Roles:</strong> Support</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -1360,6 +1478,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Teemo</h2>
             <p><strong>Roles:</strong> Marksman, Mage</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -1371,6 +1490,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Tristana</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -1382,6 +1502,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Trundle</h2>
             <p><strong>Roles:</strong> Fighter, Tank</p>
             <p><strong>Lanes:</strong> Top Lane, Jungle</p>
@@ -1393,6 +1514,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Twisted Fate</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -1404,6 +1526,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Udyr</h2>
             <p><strong>Roles:</strong> Fighter, Tank</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -1415,6 +1538,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Urgot</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Top Lane</p>
@@ -1426,6 +1550,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Varus</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane, Mid Lane</p>
@@ -1437,6 +1562,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Vayne</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -1449,6 +1575,7 @@
         </div>
         
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Veigar</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -1460,6 +1587,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt=""> 
             <h2>Viktor</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -1471,6 +1599,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Vladimir</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane, Top Lane</p>
@@ -1482,6 +1611,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Warwick</h2>
             <p><strong>Roles:</strong> Fighter, Tank</p>
             <p><strong>Lanes:</strong> Jungle</p>
@@ -1493,6 +1623,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Wukong</h2>
             <p><strong>Roles:</strong> Fighter</p>
             <p><strong>Lanes:</strong> Top Lane, Jungle</p>
@@ -1504,6 +1635,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Xayah</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -1515,6 +1647,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Yasuo</h2>
             <p><strong>Roles:</strong> Fighter, Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -1526,6 +1659,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Yone</h2>
             <p><strong>Roles:</strong> Fighter, Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -1537,6 +1671,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Zed</h2>
             <p><strong>Roles:</strong> Assassin</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -1548,6 +1683,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Zeri</h2>
             <p><strong>Roles:</strong> Marksman</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -1560,6 +1696,7 @@
         </div>
         
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Ziggs</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
@@ -1571,6 +1708,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Zilean</h2>
             <p><strong>Roles:</strong> Support</p>
             <p><strong>Lanes:</strong> Bottom Lane</p>
@@ -1582,6 +1720,7 @@
             </ul>
         </div>
         <div class="champion-card">
+            <img src="" alt="">
             <h2>Zoé</h2>
             <p><strong>Roles:</strong> Mage</p>
             <p><strong>Lanes:</strong> Mid Lane</p>
